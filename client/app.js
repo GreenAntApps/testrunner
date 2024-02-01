@@ -1,5 +1,5 @@
 import { runTests } from './lib/testrunner.js';
-import { TestRunGroups, TestRuns } from '../../shared/tests/testruns.js';
+import { TestRunGroups, TestRuns } from './../tests/testruns.js';
 import { copyToClipboard } from './lib/utils.js';
 
 import './app.service.js';

@@ -1,4 +1,4 @@
-import * as Testing from './chai.js'; // imported as chai
+import * as _chai from './chai.js'; // imported as chai
 
 export async function runTests(config, appWindow, cb) {
     const { name, path, description, tags, params } = config;
